@@ -10,3 +10,16 @@ git  add .
 #-m is the message
 git commit -m "add index.html." -m "some description"
 git push
+
+#local machine with gits
+ssh -keygen -t rsa -b 4096 -C "colinwolf@gmail.com
+ls
+(testkey testkey.pub ) pub is the public key
+#print out key
+cat testkey.pub
+pbcopy </testkey .pub
+
+
+
+
+
