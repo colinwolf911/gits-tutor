@@ -1,2 +1,5 @@
 #clone down to local machine in vs
-git clone 
+git clone  https://github.com/colinwolf911/gits-tutor.git
+# change dirctory inside the folder
+cd gits-tutor
+
