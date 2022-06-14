@@ -53,7 +53,9 @@ feature branch  are same  ,they cannot see wach other
 hotfix branch
 
 git branch
-git checkout
+git checkout -b  feature
+(name of your branch)
+
 
 
 
