@@ -19,6 +19,27 @@ ls
 cat testkey.pub
 pbcopy </testkey .pub
 
+#move to the new folder
+#move back cd ..
+cd../gits2 
+# move forward
+cd gits2
+
+#after add files git init to update
+git init 
+#check status
+git status
+#add files
+git add readme2.md 
+#check files
+git status
+#add something
+git commit -m "created readme2" -m "something new"
+
+#push alive
+git push origin master
+(not working because we didn't create repository at git )
+
 
 
 
