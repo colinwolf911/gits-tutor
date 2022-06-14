@@ -47,6 +47,17 @@ git push origin  master
 or (git push -u origin master)
 
 
+#git branching 
+master branch (default)
+feature branch  are same  ,they cannot see wach other
+hotfix branch
+
+git branch
+git checkout
+
+
+
+
 
 
 
