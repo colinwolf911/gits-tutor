@@ -3,4 +3,10 @@ git clone  https://github.com/colinwolf911/gits-tutor.git
 # change dirctory inside the folder
 cd gits-tutor
 #list everything 
-ls
+ls 
+#change the file in gits
+#track the files
+git  add .
+#-m is the message
+git commit -m "add index.html." -m "some description"
+git push
