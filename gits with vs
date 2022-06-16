@@ -55,6 +55,54 @@ hotfix branch
 git branch
 git checkout -b  feature
 (name of your branch)
+git branch 
+git checkout master
+
+git branch
+git checkout feature
+
+#back yo feature
+#change in readme.md
+#eg: open index
+git status
+git add readme.md
+git commit -m "updated readme"
+git checkout master
+(it will come back to the master)
+
+#before merge two to see the change
+git diff feature
+#merge two branches
+git merge feature
+
+#push them into git
+git checkout feature
+git status
+git push
+#need to tell the git which branch need to be pushed
+git push --set-upstream origin feature
+
+#-u for short set-upstream
+git push -u origin feature
+
+#once pr merge it will delete
+
+#in git page
+create a pull requests 
+merge the pull
+
+#switch the master 
+git checkout master
+
+git pull 
+git branch
+
+#delete the branch
+git branch -d freature
+
+git branch 
+
+
 
 
 
