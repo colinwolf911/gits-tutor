@@ -101,6 +101,58 @@ git branch
 git branch -d freature
 
 git branch 
+git checkout -b quick-test
+
+#new branch has been created  as quick-test
+git status
+
+#show the changing 
+git diff
+
+#-a for add -m for message
+-am for modified message not for new created
+
+
+git commit -am "added world"
+git check master
+
+#both branch added something
+git branch quick-test
+#stash for temper holding
+git  checkout quick-test
+git diff master
+
+git merge master
+
+git diff
+git commit -am "updated changged"
+
+git reset readme.md
+git commit -m "added install step"
+
+git status
+#back to the previous one 
+git reset HEAD~1 
+
+git status
+git diff
+
+#many difficult commit
+git log
+
+#copy the hash
+ git reset 1232498-87528-054
+ 
+#get rid of all changing 
+git log
+git reset --hard 
+
+#forking 
+#making copy from others
+
+#pull
+create pull requist
+
 
 
 
